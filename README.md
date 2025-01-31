@@ -13,4 +13,13 @@ This project is about analyzing customer churn in a bank to understand why custo
   * Churn Status:  1 → Churned, 0 → Not Churned
   * Active Status:  1 → Active, 0 → Inactive
   * Credit Card:  1 → Owned, 0 → Not Owned
+* Transforming Product Column- Used "Column from Examples" feature to rewrite product numbers and Renamed this column as Products.
+   * 1 → Product 1
+   * 2 → Product 2
+   * 3 → Product 3
+   * 4 → Product 4
+* Create conditional columns for grouping based on existing data:
+ * Age Group (derived from Age)
+ * Credit Scores (derived from Credit Score)
+ * Account Balance (derived from Balance)
 
