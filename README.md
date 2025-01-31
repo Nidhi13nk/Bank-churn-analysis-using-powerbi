@@ -19,7 +19,7 @@ This project is about analyzing customer churn in a bank to understand why custo
    * 3 → Product 3
    * 4 → Product 4
 * Create conditional columns for grouping based on existing data:
- * Age Group (derived from Age)
- * Credit Scores (derived from Credit Score)
- * Account Balance (derived from Balance)
+    * Age Group (derived from Age)
+    * Credit Scores (derived from Credit Score)
+    * Account Balance (derived from Balance)
 
