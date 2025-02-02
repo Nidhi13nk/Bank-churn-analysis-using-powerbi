@@ -35,6 +35,7 @@ Construct reference tables and develop conditional columns:
 ### Step 4: Creating Measures using DAX
 Developed the following DAX measures for analysis:
 
-* To calculate the number of customers  -   Customers = COUNT('Bank Customer Churn Prediction'[Customer_Id])
+* To calculate the number of customers  -
+      * Customers = COUNT('Bank Customer Churn Prediction'[Customer_Id])
 * To calculate the number of lost customers -  Customers Lost = CALCULATE('Bank Customer Churn Prediction'[Customers],'Bank Customer Churn Prediction'[Churn Status]="Churned")
 * To calculate the churn rate -  Churn Rates = 'Bank Customer Churn Prediction'[Customers Lost]/'Bank Customer Churn Prediction'[Customers]
