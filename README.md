@@ -23,3 +23,11 @@ This project is about analyzing customer churn in a bank to understand why custo
     * Credit Scores (derived from Credit Score)
     * Account Balance (derived from Balance)
 
+### Step 3: Data Modeling 
+Construct reference tables and develop conditional columns:
+
+* Create a reference table from the bank customer churn prediction table, rename it to 'Age Group Table', retain only the 'Age_Group' column, and removed duplicates.
+* Introduce an 'Age Id' conditional column in the 'Age Group Table'.
+* Similarly, create reference tables for 'Account Balance' and 'Credit_Scores'. Insert respective Id's as conditional columns and sorted Id's in ascending order.
+* Established relationships among tables using Power BI’s Model View.
+
