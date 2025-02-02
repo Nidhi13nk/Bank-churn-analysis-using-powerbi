@@ -43,3 +43,24 @@ Developed the following DAX measures for analysis:
     
 * To calculate the churn rate -
   * Churn Rates = 'Bank Customer Churn Prediction'[Customers Lost]/'Bank Customer Churn Prediction'[Customers]
+
+### Step 5: Data Visualization (Dashboard Design)
+KPIs (Cards)
+
+* Total Customers
+* Lost Customers
+* Churn Rate
+
+Charts
+* Donut Charts for:
+  * Customers by Gender
+  * Customers by Active Status
+  * Customers by Credit Card 
+  * Customers by Country
+  * Customers by Products
+    
+* Stacked Column & Line Charts for:
+  * Customers & Churn Rate by Age Group
+  * Customers & Churn Rate by Account Balance
+
+
