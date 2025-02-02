@@ -29,5 +29,6 @@ Construct reference tables and develop conditional columns:
 * Create a reference table from the bank customer churn prediction table, rename it to 'Age Group Table', retain only the 'Age_Group' column, and removed duplicates.
 * Introduce an 'Age Id' conditional column in the 'Age Group Table'.
 * Similarly, create reference tables for 'Account Balance' and 'Credit_Scores'. Insert respective Id's as conditional columns and sorted Id's in ascending order.
+* Applied close & apply to save transformations.
 * Established relationships among tables using Power BI’s Model View.
 
