@@ -64,3 +64,7 @@ Charts
   * Customers & Churn Rate by Account Balance
 
 
+## Dashboard 
+![bank churn dashboard](https://github.com/user-attachments/assets/2ed0e5e3-3b35-4305-8ee2-40aa50c48039)
+
+
